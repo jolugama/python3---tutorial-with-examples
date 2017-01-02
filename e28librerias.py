@@ -10,7 +10,8 @@ codigo facilito
 import random
 from datetime import date, datetime, timedelta
 import sys
-import time 
+import time
+
 
 class E28():
     ''' modulos
@@ -43,20 +44,20 @@ class E28():
         '''
         # date
         print(date.today())
-        print('El día actual es {}').format(date.today().day)
-        print('El mes actual es {}').format(date.today().month)
-        print('El año actual es {}').format(date.today().year)
+        print('El día actual es {}'.format(date.today().day))
+        print('El mes actual es {}'.format(date.today().month))
+        print('El año actual es {}'.format(date.today().year))
 
         # datetime : tiene a parte de la fecha, las horas, minutos, segundos.
         print(datetime.now())
-        print('la hora actual es {}').format(datetime.now().hour)
-        print('El minuto actual es {}').format(datetime.now().minute)
-        print('El segundo actual es {}').format(datetime.now().second)
+        print('la hora actual es {}'.format(datetime.now().hour))
+        print('El minuto actual es {}'.format(datetime.now().minute))
+        print('El segundo actual es {}'.format(datetime.now().second))
 
         # creación de una fecha
         # se puede añadir hora, minutos, segundos, y milisegundos
         new_date = datetime(2016, 12, 30)
-        print('la nueva fecha es {}').format(new_date)
+        print('la nueva fecha es {}'.format(new_date))
         print(type(new_date))
 
         # comparación, modificacion de fechas
